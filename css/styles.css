@@ -1,0 +1,35 @@
+
+.container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: square;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+}
+@keyframes square {
+    0% {
+top: 0;
+background-color: red;
+}
+25% {
+top: 100px;
+left: 0;
+background-color: blue;
+}
+50% {
+    top: 100px;
+left: 100px;
+background-color: green;
+}
+75% {
+top: 0;
+left: 100px;
+background-color: yellow;
+}
+100% {
+left: 0;
+background-color: red;
+}
+}
